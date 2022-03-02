@@ -1,0 +1,273 @@
+@font-face {
+    font-family: idroid;
+    src: url(/fontes/idroid.otf);
+    
+    
+}
+
+body {
+    
+    background-color: rgb(94, 247, 214);
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+    
+   
+        
+}
+
+header{
+    padding-top: 1px;
+    background-image: linear-gradient(180deg,rgb(71, 226, 136), rgb(31, 146, 98))
+    
+    
+}
+
+picture{
+    width: 100%;
+    display: block;
+    justify-content: center;
+}
+
+
+
+
+
+main { 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    display: flex; 
+    background-color: white;
+    padding: 1px;
+    margin: auto;
+    flex-wrap: wrap;
+    min-width: 320px;
+    max-width: 800px;
+    
+   
+}
+.nav {
+
+    display: inline-flex;
+    padding-bottom: 5px;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+    text-shadow: black 8px 1px 5px;
+    
+}
+.nav:hover{
+
+    background-color: rgb(32, 105, 81);
+    border-radius: 5px;
+    text-decoration: none;
+    
+
+    
+
+
+}
+
+strong {
+    color: rgb(53, 230, 162);
+
+
+}
+strong:hover {
+    text-decoration: underline;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.externo::after{
+    content: "\00A0\1F517";
+}
+
+iframe {
+    margin: auto;
+    padding: 25px;
+    background-color:rgb(30, 88, 30);
+}
+
+#droids {
+    
+    display: flex;
+    height: 260px;
+    position: relative;
+}
+
+#irina{
+
+    display: flex;
+    width: 700px;
+    height: 230px;
+    margin: auto;
+    position: relative;
+
+
+}
+
+.bugdroid{
+    margin: auto;
+    
+
+
+}
+
+
+
+
+/* titles==================================================*/
+
+#h1cabecalho{
+    letter-spacing: -5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    text-shadow: black 4px 0px 11px;
+}
+#pcabecalho{
+    color:white;
+    text-align: center;
+    text-shadow: black 4px 0px 11px;
+}
+
+#h1main{
+ 
+    padding:10px;
+    font-family: idroid;
+    color: rgb(12, 131, 66);
+    text-shadow: black 4px 0px 4px;
+
+}
+
+.h2main{
+    color: rgb(36, 153, 89);
+    padding-left: 15px;   
+    font-family: idroid;
+    background-image: linear-gradient(90deg,rgba(71, 231, 196, 0.295),rgb(250, 255, 254));
+    text-shadow: black 4px 0px 4px;
+    
+}
+
+.pmain{
+    padding:5px;
+    text-indent: 20px;
+}
+
+/*aside==========================================================================*/
+aside {
+    
+    padding-top:0;
+    margin:10px;
+    background-color: rgba(100, 235, 183, 0.671);
+    border-radius: 15px ;
+
+}
+
+div#asidelist{
+    display: flex;
+    padding: 20px;
+}
+#tituloaside{
+    margin-top: 0;
+    background-color: rgb(13, 141, 67);
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-shadow: black 8px 1px 5px;
+    letter-spacing: -2px;
+    font-family: sans-serif;
+    padding: 5px;
+}
+.paside{
+    text-indent: 20px;
+    text-align: center;
+}
+
+#leftlist{
+    
+    padding:15px;
+    margin: auto;
+ 
+    width: 100%;
+    height: 100%;
+}
+.leftlist{
+
+    text-decoration: none;
+
+    color: black;
+}
+
+#rightlist{
+
+    padding: 15px;
+    margin: auto;
+
+  
+    width: 100%;
+    height: 100%;
+
+
+}
+li{
+
+    list-style-type: '\2714\00A0';
+}
+
+.rightlist{
+    
+    text-decoration: none;
+
+    color: black;
+
+}
+
+.lastone{
+    text-indent: 20px;
+    text-align: center;
+
+}
+
+abbr {
+
+    text-decoration: none;
+}
+
+/*===============================*/
+
+footer {
+    
+
+    background-color:rgba(35, 163, 24, 0.815);
+    color:white;
+
+    margin-top: 15px;
+    padding: 10px;
+    padding-left: 1px;
+
+    display:flex;
+    justify-content:center;
+
+
+}
+
+strong {
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content:center;
+}
+.footer {
+    color: white;
+}
